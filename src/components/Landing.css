@@ -1,0 +1,50 @@
+.content {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+}
+.content .title {
+    color: #0a0a0a;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    display: inline-block;
+    margin-bottom: 20px;
+    background: linear-gradient(
+        120deg,
+        /* option 1 */
+        #fd4766 20.69%,
+        #ff8e0c 50.19%,
+        #ffda06 79.69%
+        /* option 2 */
+        /* #fe3e1c 20.69%,
+        #ff8e0c 50.19%,
+        #ffda06 79.69% */
+        /* option 3 */
+        /* #1c99fe 20.69%,
+        #7644ff 50.19%,
+        #fd4766 79.69% */
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content h1 {
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 900;
+    line-height: 90px;
+    text-transform: inherit;
+    width: 70%;
+}
+.content h1 span {
+    color: #fd4766;
+}
+.content p {
+    width: 55%;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+.logo {
+    max-height: 120px;
+}
