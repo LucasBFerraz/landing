@@ -1,15 +1,19 @@
+import React, { useState, useEffect, useRef } from 'react';
 import './App.css';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import About from './components/About';
 import Navbar from './components/Navbar'
 import Landing from './components/Landing'
+import About from './components/About'
 
 function App() {
   return (
     <div className="hero">
-      <Navbar />
-      <Landing />
+      <div className="navbar">
+        <Navbar />
+      </div>
+      <div className="scrollable-content">
+        <Landing />
+        {/* <About /> */}
+      </div>
     </div>
   );
 }

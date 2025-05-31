@@ -1,8 +1,14 @@
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 30px 100px;
+    padding: 0 100px;
+    background-color: transparent;
+    /* backdrop-filter: blur(10px); */
 }
 nav ul li {
     list-style: none;
